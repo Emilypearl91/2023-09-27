@@ -1,0 +1,23 @@
+body{
+  max-width: 10rem;
+  max-height: 10rem;
+  padding: 10rem;
+  margin-left: 5rem;
+  background-color: cornflowerblue;
+}
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+section :nth-child(even){
+  background-color: black;
+  min-width: 2rem;
+  min-height: 2rem;
+}
+section :nth-child(odd){
+  background-color: white;
+  color: white;
+  min-width: 2rem;
+  min-height: rem;
+}
